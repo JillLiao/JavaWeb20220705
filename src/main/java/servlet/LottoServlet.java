@@ -15,7 +15,8 @@ import javax.servlet.ServletResponse;
 public class LottoServlet extends GenericServlet{
 
 	/**
-	 * 通常會加入版本號碼(serialVersionUID)供內部工程師管理
+	 * 通常會加入版本號碼(serialVersionUID)供內部工程師管理，
+	 * 比起直接用註解標示版本號碼，用serialVersionUID會更方便後續序列化操作
 	 */
 	private static final long serialVersionUID = 1L;
 
