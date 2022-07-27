@@ -4,6 +4,7 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
 	id="WebApp_ID" 
 	version="4.0">
+	<!--metadata-complete="true"  完全禁用@WebServlet的註釋，全部以web.xml的設定為主，但通常部會這樣做-->
 	
   <display-name>JavaWeb_20220705</display-name>
   <welcome-file-list>
